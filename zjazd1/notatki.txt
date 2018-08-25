@@ -1,0 +1,17 @@
+Jêzyki programowania
+( do pisania kodu zainstalowaæ interpreter i notepad++)
+
+1) zastosowania
+a) jêzyki ogólnego przxeznaczenia (Python , c#, JAva C++, C)
+b) jêzyki do specyficznych zastosowañ (PHP (webowe), JavsaScript(webowe , g³ównie po stronie klienta), SQL, T-SQL itd. bazy danych
+
+2) system typów (uproczczenie)
+a) statyczne  typowanie : Pascal , C , C++, C# Java,
+b) dynamiczne typowanie: Python, JS, Ruby, VBA
+(w pythonie 'type hints' s¹ narazie pocjonalne)
+
+
+uwagi:
+do liczenia pieniêdzy nie wykorzystuje siê float
+
+
