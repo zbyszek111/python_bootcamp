@@ -1,0 +1,5 @@
+[
+  "zad4.py::test_formatuj_napis_bez_znacznikow",
+  "zad4.py::test_formatuj_wiele_napis_bez_znacznikow",
+  "zad4.py::test_formatuj_napis_z_znacznikiem"
+]

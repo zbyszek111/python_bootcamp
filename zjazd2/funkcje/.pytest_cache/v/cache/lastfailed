@@ -1,0 +1,10 @@
+{
+  "zad2.py::test_wiecej_niz_dla_napis": true,
+  "zad2.py::test_wiecej_niz_dle_napis": true,
+  "zad3.py": true,
+  "zad3.py::test_policz_znaki_pusty": true,
+  "zad3.py::test_policz_znaki_w_brtak_nawiasow": true,
+  "zad3.py::test_policz_znaki_ze_bez": true,
+  "zad3.py::test_policz_znaki_ze_znakami": true,
+  "zad4.py::test_formatuj_napis_z_znacznikiem": true
+}
