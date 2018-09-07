@@ -1,37 +1,48 @@
-produkty = {"buraki":3, "kapusta":1, "marchew":2, "fasola":4}
-magazyn = {"buraki":300, "kapusta":100, "marchew":200, "fasola":400}
-print(produkty)
+produkty = {
+    'ziemniaki': 1.99,
+    'bataty': 6.99,
+    'pomidory': 2.5,
+    'piwo': 7
+}
 
+magazyn = {
+    'ziemniaki': 10,
+    'bataty': 10,
+    'pomidory': 10,
+    'piwo': 10
+}
 koszyk = {}
+
+
 for p in produkty:
-    print(f"- {p} - {produkty} pln")
+    print(f"- {p} - {produkty[p]} PLN ")
 
 
 while True:
-    komenda = input("KUP/DODAJ")
 
-    #sciezka zakupow
+    komenda = input("Co chcesz zrobić: DODAJ / KUP: ")
 
     if komenda == "KUP":
-        jaki_produkt = input("podaj produkt: ")
+        # ścieżka zakupów
+        jaki_produkt = input("Jaki produkt chcesz kupić (wpisz k by zakończyć)? ")
         if jaki_produkt == 'k':
-            print(koszyk)
             break
-        ile = float(input(f"ile chcesz kupic  {jaki_produkt} :"))
-        if magazyn[jaki_produkt]>= ile:
-            koszyk[jaki_produkt]= ile*produkty[jaki_produkt]
-            magazyn[jaki_produkt]-= ile
+        ile = float(input(f"Ile chcesz kupić: {jaki_produkt}? "))
+        if magazyn[jaki_produkt] >= ile:
+            koszyk[jaki_produkt] = ile*produkty[jaki_produkt]
+            magazyn[jaki_produkt] -= ile
         else:
-            print('sorry')
-        # sciezka dodanie do magazyny
+            print("Sorrry nie mamy tyle produktu")
     elif komenda == "DODAJ":
-        # sciezka dodawania do magazynu
-
+        # ścieżka dodania do magazynu
+        # ...
+        pass
     else:
-        priunt("niewlasciaw sciezka")
+        print("Nieprawidłowa komenda ")
 
-
-    koszyk[jaki_produkt]= ile*produkty[jaki_produkt]
-
+koszt_calkowity = 0
 for wklad in koszyk:
-    print(f" Koszt:  - {wklad} - {koszyk[wklad]}")
+    koszt_calkowity += koszyk[wklad]
+    print(f" - Koszt - {wklad} - {koszyk[wklad]}")
+
+print(f"SUMA: {koszt_calkowity}")
