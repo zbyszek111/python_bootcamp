@@ -1,8 +1,16 @@
 [
-  "zad5.py::test_create",
-  "zad5.py::test_put_money",
-  "zad5.py::test_withdraw_money",
-  "zad5.py::test_withdraw_more_than",
-  "zad5.py::test_withdraw_not_fullfiled",
-  "zad5.py::test_withdraw_wrong_nominal"
+  "zad6.py::test_create_",
+  "zad6.py::test_add",
+  "zad6.py::test_sub",
+  "zad6.py::test_mul",
+  "zad6.py::test_len",
+  "zad6.py::test_equal",
+  "zad6.py::test_equal1",
+  "zad6.py::test_equal2",
+  "zad6.py::test_grather_than",
+  "zad6.py::test_grather_than_or_equal",
+  "zad6.py::test_les_than",
+  "zad6.py::test_not_equal",
+  "zad6.py::test_les_equal",
+  "zad6.py::test_sort"
 ]
