@@ -139,4 +139,5 @@ def test_sort():
     assert sorted(lista) == [v4,v2,v1,v3]
     assert sorted(lista) == [v2,v4,v1,v3]
 
-    print(lista)
+    for element in lista:
+        print(element)
