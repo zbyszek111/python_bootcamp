@@ -1,0 +1,10 @@
+{
+  "zad2.py::test_employee_register_time": true,
+  "zad2.py::test_register_time_nad_pay_salary": true,
+  "zad2.py::test_registered_time_nad_pay_salary": true,
+  "zad4.py::test_Basket": true,
+  "zad4.py::test_basket_generate_report": true,
+  "zad4.py::test_print_info": true,
+  "zad5.py::test_withdraw": true,
+  "zad5.py::test_withdraw_wrong_nominal": true
+}
