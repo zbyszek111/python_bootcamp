@@ -38,6 +38,8 @@ class Product:
         if len(value) > 3:
             self._name = value
 
+help(Product.discount_price)
+
 pr1 =Product(1, 'Bulka', 10)
 
 print(pr1.price)
