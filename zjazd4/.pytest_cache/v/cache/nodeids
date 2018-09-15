@@ -1,0 +1,6 @@
+[
+  "zad_domowe1.py::test_animal",
+  "zad_domowe1.py::test_dog",
+  "zad_domowe1.py::test_cat",
+  "zad_domowe1.py::test_compare_cat_dog_age"
+]

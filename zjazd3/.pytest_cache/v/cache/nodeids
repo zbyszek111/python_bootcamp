@@ -1,4 +1,6 @@
 [
+  "zad7.py::test_import_from_tekst",
   "zad7.py::test_create",
-  "zad7.py::test_register"
+  "zad7.py::test_register",
+  "zad7.py::test_employee_of_the_month"
 ]
